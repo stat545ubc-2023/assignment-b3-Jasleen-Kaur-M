@@ -24,10 +24,15 @@ This Shiny app provides a user-friendly interface for visualizing k-means cluste
 ## Getting Started
 To run the app locally, make sure you have R and the required packages installed. (Namely, `shiny`, `factoextra`, `cluster`, `datasets`) Then, run the `shiny::runApp()` command in your R console.
 
-## Deployment
-The app is deployed on [shinyapps.io](https://your-shinyapp-link-here). Visit the deployed app to interact with the k-means clustering interface.
-
 ## How to Use
+1. Clone this repository in your local machine.
+2.Install the following packages: `shiny`, `factoextra`, `cluster`
+`datasets`.
+3. Open the R script (`Cluster_it.R`)
+4. Run the app by clicking on the 'Run app' button
+
+On the shiny app page:
+
 1. Choose a dataset from the dropdown menu.
 2. Adjust the number of clusters using the slider.
 3. Explore the clustering results in the interactive plot.
@@ -37,7 +42,10 @@ For more details on the implementation, refer to the R scripts `ui.R` and `serve
 
 ## Credits
 
-Image credits: https://realpython.com/k-means-clustering-python/
+# Dataset source:
+All the dataset used are included as part of the R environment. 
+
+# Image credits: https://realpython.com/k-means-clustering-python/
 https://realpython.com/cdn-cgi/image/width=960,format=auto/https://files.realpython.com/media/K-Means-Clustering-in-Python_Watermarked.70101a29a2a2.jpg
 
 ---
