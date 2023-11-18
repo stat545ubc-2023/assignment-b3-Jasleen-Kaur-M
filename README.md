@@ -45,7 +45,8 @@ For more details on the implementation, refer to the R scripts `ui.R` and `serve
 # Dataset source:
 All the dataset used are included as part of the R environment. 
 
-# Image credits: https://realpython.com/k-means-clustering-python/
+# Image credits:
+https://realpython.com/k-means-clustering-python/
 https://realpython.com/cdn-cgi/image/width=960,format=auto/https://files.realpython.com/media/K-Means-Clustering-in-Python_Watermarked.70101a29a2a2.jpg
 
 ---
