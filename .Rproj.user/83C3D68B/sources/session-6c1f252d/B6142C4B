@@ -3,24 +3,24 @@
     "path": "~/Shiny app/README.md",
     "project_path": "README.md",
     "type": "markdown",
-    "hash": "0",
+    "hash": "1182750197",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1700265102663.0,
     "source_on_save": false,
     "relative_order": 2,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "28,26",
-        "scrollLine": "25"
+        "cursorPosition": "45,0",
+        "scrollLine": "34"
     },
     "folds": "",
-    "lastKnownWriteTime": 1700266535,
+    "lastKnownWriteTime": 1700268113,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1700266616631,
+    "last_content_update": 1700268113704,
     "read_only": false,
     "read_only_alternatives": []
 }

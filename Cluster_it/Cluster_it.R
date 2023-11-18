@@ -3,6 +3,7 @@ library(shiny)
 library(factoextra)
 library(cluster)
 library(datasets)
+library(ggplot2)
 
 # Define UI
 ui <- fluidPage(
@@ -59,7 +60,9 @@ ui <- fluidPage(
     # Main panel
     mainPanel(
       # Plot output for clustering results
-      plotOutput("plot", height = "700px")
+      plotOutput("plot", height = "700px"),
+      downloadButton("download_plot", "Download Plot")
+      
     )
   ) 
 )
@@ -100,6 +103,18 @@ server <- function(input, output) {
             legend.text = element_text(size = 24),
             legend.title = element_text(size = 29))
     print(plot)
+    
+    output$download_plot <- downloadHandler(
+      filename = function() {
+        paste("clustering_plot", Sys.Date(), ".png", sep = "")
+      },
+      content = function(file) {
+        # Save the clustering plot as an image file
+        ggsave(file, fviz_cluster(km(), data = scaled_data()),
+               device = "png")
+      }
+    )
+    
   })
 }
 

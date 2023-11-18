@@ -22,12 +22,12 @@ This Shiny app provides a user-friendly interface for visualizing k-means cluste
 - This enhances the visual appeal, making the app more engaging and enjoyable.
 
 ## Getting Started
-To run the app locally, make sure you have R and the required packages installed. (Namely, `shiny`, `factoextra`, `cluster`, `datasets`) Then, run the `shiny::runApp()` command in your R console.
+To run the app locally, make sure you have R and the required packages installed. (Namely, `shiny`, `factoextra`, `cluster`, `datasets`, `ggplot2`) Then, run the `shiny::runApp()` command or click the "Run App" button in your R console.
 
 ## How to Use
 1. Clone this repository in your local machine.
 2.Install the following packages: `shiny`, `factoextra`, `cluster`
-`datasets`.
+`datasets`, `ggplot2`.
 3. Open the R script (`Cluster_it.R`)
 4. Run the app by clicking on the 'Run app' button
 
@@ -36,6 +36,13 @@ On the shiny app page:
 1. Choose a dataset from the dropdown menu.
 2. Adjust the number of clusters using the slider.
 3. Explore the clustering results in the interactive plot.
+
+To save the desired plot:
+
+1. Click the download plot button.
+2. Change the name of the file (if required).
+3. Change location (if required).
+4. Click Save.
 
 ## Additional Information
 For more details on the implementation, refer to the R scripts `ui.R` and `server.R` in this repository.

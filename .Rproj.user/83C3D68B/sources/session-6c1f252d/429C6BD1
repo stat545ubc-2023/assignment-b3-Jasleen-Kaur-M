@@ -3,7 +3,7 @@
     "path": "~/Shiny app/Cluster_it/Cluster_it.R",
     "project_path": "Cluster_it/Cluster_it.R",
     "type": "r_source",
-    "hash": "2084829255",
+    "hash": "166932757",
     "contents": "",
     "dirty": false,
     "created": 1700266926050.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "5,0",
-        "scrollLine": "0"
+        "cursorPosition": "113,28",
+        "scrollLine": "100"
     },
     "folds": "",
-    "lastKnownWriteTime": 1700267049,
+    "lastKnownWriteTime": 1700267954,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1700267049910,
+    "last_content_update": 1700267954291,
     "read_only": false,
     "read_only_alternatives": []
 }
