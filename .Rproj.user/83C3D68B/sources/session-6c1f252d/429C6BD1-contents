@@ -104,6 +104,7 @@ server <- function(input, output) {
             legend.title = element_text(size = 29))
     print(plot)
     
+    #Download the desired plot as a png file
     output$download_plot <- downloadHandler(
       filename = function() {
         paste("clustering_plot", Sys.Date(), ".png", sep = "")
