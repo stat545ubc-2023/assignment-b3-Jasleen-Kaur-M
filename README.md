@@ -3,6 +3,8 @@
 ## Overview
 This Shiny app provides a user-friendly interface for visualizing k-means clustering results on different datasets. Users can explore clustering behavior, adjust parameters interactively, and gain insights into the underlying data structure.
 
+You can find the working website to my app here. [Cluster_it] ( https://clusterit.shinyapps.io/Cluster_it/)
+
 ## Features
 
 ### 1. K-Means Clustering Visualization
