@@ -1,0 +1,12 @@
+name: Cluster_it
+title: Cluster_it
+username: clusterit
+account: clusterit
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10614173
+bundleId: 7962961
+url: https://clusterit.shinyapps.io/Cluster_it/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
